@@ -1,6 +1,6 @@
-# Dual-context aggregation for universal image matting (DCAM)
+# Dual-Context Aggregation for Universal Image Matting (DCAM)
 
-Official repository for the paper [**Dual-context aggregation for universal image matting**](https://link.springer.com/article/10.1007/s11042-023-17517-w)
+Official repository for the paper [**Dual-Context Aggregation for Universal Image Matting**](https://link.springer.com/article/10.1007/s11042-023-17517-w)
 
 ## Description
 
@@ -37,6 +37,19 @@ It should be noted that the matting network uses the texture difference between 
 
 
 ## Evaluation
-We provide the script `eval_dcam_adb_tri.py`  for evaluation.
+We provide the script `eval_dcam_adb_tri.py`  for evaluation. 
 
+## Citation
 
+If you use this model in your research, please cite this project to acknowledge its contribution.
+
+```plaintext
+@article{liu2023dual,
+  title={Dual-context aggregation for universal image matting},
+  author={Liu, Qinglin and Lv, Xiaoqian and Yu, Wei and Guo, Changyong and Zhang, Shengping},
+  journal={Multimedia Tools and Applications},
+  pages={1--19},
+  year={2023},
+  publisher={Springer}
+}
+```
